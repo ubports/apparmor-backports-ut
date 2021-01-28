@@ -2,7 +2,7 @@
 This repository contains kernel backports for the AppArmor 3 support which is required in Ubuntu Touch. They are conveniently prepared as a replacement folder for security/apparmor.
 
 ### Use correct version for your kernel!
-Please only use the tar.bz2 file that matches your kernel version. You can query your kernel version from the Makefile file in the top level of the checked out code. Note the version in the first lines of that file.
+Please only use the tar.bz2 file that matches your kernel version. You can query your kernel version from the Makefile file in the top level of the checked out kernel code, found at kernel/<vendor>/<device_or_common_name>/. Note the version in the first lines of that file.
 
 ### Applying the patch
 * Delete the folder apparmor in the security folder of your kernel entirely
